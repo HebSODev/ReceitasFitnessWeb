@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Receitas Fitness</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top-panel">
+            <header>
+                <h1>Receitas Fitness</h1>
+            </header>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#receitas">Receitas</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <a>Seu guia de alimentação para</a>
+                <h2 class="titulo-secao">Saúde e Estética de Fácil Aderencia</h2>
+        </div>
+        <div class="bottom-panel">
+            <!-- Adicionando a imagem aqui -->
+            <img src="./img/inicio.jfif" alt="Imagem de receita fitness">
+        </div>
+    </div>
+</section>
+
+<!-- Seção Receitas -->
+<section id="receitas" class="section">
+    <h2 class="titulo-secao">Receitas</h2>
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="./img/bobo.png" alt="Smoothie Verde">
+            <p>
+                <a class="titulo-receita">Bombocado Fit</a><br><br><br><br>
+            Bombocado Fit é uma versão mais saudável do tradicional bombocado,
+                 um doce brasileiro à base de ovos, leite e coco. Nessa versão fit,
+                  os ingredientes são adaptados para reduzir calorias e aumentar os benefícios nutricionais,
+                   sem abrir mão do sabor</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="./img/fac.png" alt="Salada de Quinoa">
+            <p>
+                <a class="titulo-receita">Focaccia Fit</a><br><br><br><br>
+                A Focaccia Fit é uma versão mais saudável da tradicional focaccia italiana,
+                 adaptada para quem busca uma alimentação equilibrada, sem perder o sabor e a textura macia desse pão delicioso</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="./img/bol.png" alt="Bowl de Açaí">
+
+            <p> <a class="titulo-receita">Bolo de Caneca Fit</a><br><br><br><br>
+                O Bolo de Chocolate de Caneca Fit é uma versão saudável e rápida do tradicional bolo de caneca, 
+                ideal para matar a vontade de doce sem sair da dieta. Ele é feito com ingredientes mais nutritivos e equilibrados, 
+                sem açúcar refinado e com farinhas alternativas</p>
+        </div>
+    </div>
+</section>
+</section>
+
+<!-- Seção Contato -->
+<section id="contato" class="section">
+    <h2 class="titulo-secao">Contato</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+<br>
+<div class="bottom-panel">
+    <img src="caminho/para/sua/imagem.jpg" alt="Imagem de receita fitness">
+</div>
+</div>
+</section>
+
+<div class="bottom-panel">
+    <img src="caminho/para/sua/imagem.jpg" alt="Imagem de receita fitness">
+</div>
+</div>
+<footer>
+<p>&copy; 2023 Receitas Fitness. Todos os direitos reservados.</p>
+</footer>
+<script>
+    // Adicionando um evento de submit ao formulário
+    document.getElementById('contato').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Comentário enviado com sucesso, Obrigado!!');
+        document.getElementById('contato').reset();
+    });
+</script>
+</body>
+</html>
