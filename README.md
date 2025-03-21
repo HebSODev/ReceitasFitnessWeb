@@ -1,49 +1,43 @@
-#Receitas Fitness
-Bem-vindo ao Receitas Fitness, seu guia de alimentação para saúde e estética de fácil aderência! Este site oferece uma variedade de receitas saudáveis e deliciosas, adaptadas para quem busca uma vida mais equilibrada sem abrir mão do sabor.
+# Receitas Fitness
 
-#Índice
-Visão Geral
+Bem-vindo ao **Receitas Fitness**, seu guia de alimentação para saúde e estética de fácil aderência! Este site oferece uma variedade de receitas saudáveis e deliciosas, adaptadas para quem busca uma vida mais equilibrada sem abrir mão do sabor.
 
-Funcionalidades
+## Índice
 
-Tecnologias Utilizadas
+1. [Visão Geral](#visão-geral)
+2. [Funcionalidades](#funcionalidades)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Como Executar o Projeto](#como-executar-o-projeto)
+5. [Estrutura do Projeto](#estrutura-do-projeto)
+6. [Contribuição](#contribuição)
+7. [Licença](#licença)
+8. [Contato](#contato)
 
-Como Executar o Projeto
+## Visão Geral
 
-Estrutura do Projeto
+O **Receitas Fitness** é um site responsivo que apresenta receitas saudáveis e práticas, divididas em categorias como smoothies, saladas e sobremesas fit. O objetivo é fornecer opções nutritivas e saborosas para quem busca uma alimentação equilibrada.
 
-Contribuição
+## Funcionalidades
 
-Licença
+- **Navegação Simples**: Menu de navegação com links para as seções Início, Receitas e Contato.
+- **Receitas Destacadas**: Cards com imagens e descrições das receitas.
+- **Formulário de Contato**: Formulário para enviar mensagens, com validação básica.
+- **Design Responsivo**: Layout adaptável para diferentes dispositivos (desktop, tablet, mobile).
 
-#Visão Geral
-O Receitas Fitness é um site responsivo que apresenta receitas saudáveis e práticas, divididas em categorias como smoothies, saladas e sobremesas fit. O objetivo é fornecer opções nutritivas e saborosas para quem busca uma alimentação equilibrada.
+## Tecnologias Utilizadas
 
-#Funcionalidades
-Navegação Simples: Menu de navegação com links para as seções Início, Receitas e Contato.
+- **HTML5**: Estrutura do site.
+- **CSS3**: Estilização e layout responsivo.
+- **JavaScript**: Interatividade no formulário de contato.
+- **Google Fonts**: Utilização da fonte Roboto para melhor legibilidade.
 
-Receitas Destacadas: Cards com imagens e descrições das receitas.
+## Como Executar o Projeto
 
-Formulário de Contato: Formulário para enviar mensagens, com validação básica.
+1. Clone o repositório:
 
-Design Responsivo: Layout adaptável para diferentes dispositivos (desktop, tablet, mobile).
-
-#Tecnologias Utilizadas
-HTML5: Estrutura do site.
-
-CSS3: Estilização e layout responsivo.
-
-JavaScript: Interatividade no formulário de contato.
-
-Google Fonts: Utilização da fonte Roboto para melhor legibilidade.
-
-#Como Executar o Projeto
-Clone o repositório:
-
-bash
-Copy
-git clone https://github.com/seu-usuario/receitas-fitness.git
-Navegue até a pasta do projeto:
+   ```bash
+   git clone https://github.com/seu-usuario/receitas-fitness.git
+##Navegue até a pasta do projeto:
 
 bash
 Copy
