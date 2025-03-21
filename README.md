@@ -8,10 +8,9 @@ Bem-vindo ao **Receitas Fitness**, seu guia de alimentação para saúde e esté
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 4. [Como Executar o Projeto](#como-executar-o-projeto)
-5. [Estrutura do Projeto](#estrutura-do-projeto)
-6. [Contribuição](#contribuição)
-7. [Licença](#licença)
-8. [Contato](#contato)
+5. [Contribuição](#contribuição)
+6. [Licença](#licença)
+7. [Contato](#contato)
 
 ## Visão Geral
 
@@ -37,7 +36,7 @@ O **Receitas Fitness** é um site responsivo que apresenta receitas saudáveis e
 
    ```bash
    git clone https://github.com/seu-usuario/receitas-fitness.git
-##Navegue até a pasta do projeto:
+## Navegue até a pasta do projeto:
 
 bash
 Copy
@@ -49,23 +48,9 @@ Basta abrir o arquivo index.html no seu navegador preferido.
 Personalize o projeto:
 
 Substitua as imagens e textos conforme necessário.
-
+'''
 Adicione novas receitas ou seções ao site.
 
-#Estrutura do Projeto
-Copy
-receitas-fitness/
-│
-├── index.html            # Página principal do site
-├── styles.css            # Arquivo de estilos CSS
-├── img/                  # Pasta contendo as imagens do site
-│   ├── bobo.png          # Imagem do Bombocado Fit
-│   ├── fac.png           # Imagem da Focaccia Fit
-│   ├── bol.png           # Imagem do Bolo de Caneca Fit
-│   └── inicio.jfif       # Imagem de destaque na seção inicial
-│
-├── README.md             # Documentação do projeto
-└── (opcional) scripts/   # Pasta para scripts JavaScript adicionais
 #Contribuição
 Contribuições são bem-vindas! Se você quiser melhorar o projeto, siga os passos abaixo:
 
